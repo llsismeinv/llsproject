@@ -1,0 +1,240 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+body,html{
+    background: white; 
+}
+.header {
+    height: 76px;
+    width: 100%;
+    border-bottom: 2px solid #FA2A83;
+}
+.head{
+    width: 1000px;
+    margin: auto;
+    height: 76px;
+   
+}
+.cartopl{
+    width: 214px;
+    height: 76px;
+    line-height: 76px;
+    float: left;
+}
+.cartopr{
+    width: 575px;
+    height: 76px;
+    line-height: 76px;
+    float: right;
+}
+.rtop span:nth-child(1){
+    margin-left: 160px
+}
+.rtop{
+    height: 30px;
+    width: 670px;
+    line-height: 30px;
+    margin-top: 10px
+
+}
+.rtop span{
+    margin-right: 20px;
+}
+.rtop span i{
+   background-image: url(../images/sprites-hash-29a8cdc6.png);
+   background-position:204px 199px;
+}
+.rbot{
+    height: 30px;
+    width: 575px;
+    margin-top: 10px
+}
+.rbot li:nth-child(1){
+    margin-left: 160px
+}
+.rbot li{
+   list-style: none;
+   float: left;
+   line-height: 30px;
+   font-size: 13px;
+   color: #808080;
+   margin-right: 20px
+}
+.rbot li i{
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    background: #FCFCFC;
+    background-image: url(../images/sprites-hash-29a8cdc6.png);
+background-position: 21px 312px;
+}
+.main{
+    margin-top: 60px;
+    width: 100%;
+    background: white;
+margin-bottom: 60px;
+
+}
+.main1{
+   
+    width: 1000px;
+    /* background: gray; */
+    margin: auto;
+    height: 250px;  
+    border-bottom: 2px solid #ccc;
+    border-top:  2px solid #ccc;
+}
+.main2{
+    width: 1000px;
+    margin: auto; 
+    
+}
+.biaotou{
+    height: 40px;
+    width: 958px;
+    background: #F9F9F9;
+    
+}
+
+.biaotou li{
+    list-style: none;
+    float: left;
+    text-align: center
+}
+.emptycar{
+   width: 350px;
+   height: 150px;
+   position: relative;
+   left:300px;
+   top: 50px;
+}
+.emptycar div:nth-child(1){
+    float: left;
+    width: 120px;
+    height: 120px;
+    background-image: url(../images/sprites-hash-bce65243.png);
+    background-position: -160px 0px;
+}
+.emptycar div:nth-child(2){
+    float: right;
+    width:205px;
+}
+.emptycar div:nth-child(2) p:nth-child(2) span{
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    background: #FA2A83;
+}
+.footer {
+    height: 200px;
+    border-top: 1px solid #ebebeb;
+    background-color: #FCFCFC;
+}
+
+.footer .footer-inner {
+    width: 960px;
+    background-color: #FCFCFC;
+    height:120px;
+    margin: 0% auto;
+}
+
+
+
+
+.footer-infor {
+    width: 960px;
+    height: 117px;
+    float: left;
+
+}
+
+.footer-infor {
+    background: #FA2A83;
+    height: 29px;
+    text-align: center;
+}
+
+.footer-infor a {
+    font-size: 12px;
+    color: #fff;
+    font-weight: 400;
+}
+
+.footer-infor-txt {
+    height: 73px;
+    width: 960px;
+    float: left;
+}
+
+.footer-infor-txt a {
+    font-size: 12px;
+    color: #808FB2;
+}
+
+.footer .footer-ft {
+    height: 40px;
+    width: 960px;
+    margin: 0% auto;
+}
+
+.footer .footer-ft .footer-pic {
+    text-align: center;
+}
+
+.footer-pic-ico01 {
+    display: inline-block;
+    width: 105px;
+    height: 40px;
+    background-image: url(../images/footer-hash-3de6f1ae.png);
+    background-position: 0px 0px;
+
+}
+
+.footer-pic-ico04 {
+    width: 99px;
+    height: 40px;
+    display: inline-block;
+    background-image: url(../images/footer-hash-3de6f1ae.png);
+    background-position: 0px -150px;
+}
+
+.footer-pic-ico11 {
+    width: 76px;
+    height: 40px;
+    display: inline-block;
+    background-image: url(../images/footer-hash-3de6f1ae.png);
+    background-position: 0px -100px;
+}
+
+.footer-pic-ico06 {
+    width: 70px;
+    height: 40px;
+    display: inline-block;
+    background-image: url(../images/footer-hash-3de6f1ae.png);
+    background-position: 0px -200px;
+}
+
+.footer-pic-ico07 {
+    width: 75px;
+    height: 40px;
+    display: inline-block;
+    background-image: url(../images/footer-hash-3de6f1ae.png);
+    background-position: 0px -400px;
+}
+
+.footer-pic-ico09 {
+    width: 76px;
+    height: 40px;
+    display: inline-block;
+    background-image: url(../images/footer-hash-3de6f1ae.png);
+    background-position: 0px -250px;
+}
+
+.footer-pic-ico10 {
+    width: 76px;
+    height: 40px;
+    display: inline-block;
+    background-image: url(../images/footer-hash-3de6f1ae.png);
+    background-position: 0px -300px;
+}

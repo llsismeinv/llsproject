@@ -1,0 +1,217 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.header {
+    height: 100px;
+    background: #FFFFFF;
+}
+
+.header .head {
+    width: 1000px;
+    margin: 0% auto;
+    background: #FFFFFF;
+    height: 100px;
+}
+
+.wph {
+    width: 125px;
+    height: 100px;
+    background: #FFFFFF;
+    float: left;
+}
+
+.wph img {
+    width: 100%;
+    height: 100%;
+    background: #FFFFFF
+}
+
+.head .wphright {
+    width: 304px;
+    height: 100px;
+    float: right;
+    background-image: url(../images/sprites-hash-06206acd.png);
+}
+
+.main {
+    height: 650px;
+    background: #FFD0E4;
+}
+
+.main .mainin {
+    width: 1040px;
+    height: 610px;
+    background: #FFD0E4;
+    margin: auto;
+    padding-top: 40px;
+}
+
+.box {
+    width: 360px;
+    height: 485px;
+    border: 1px solid #ccc;
+    background-color: white;
+    position: relative;
+    margin-left: 657px;
+
+}
+
+.boxtop {
+    height: 51px;
+    width: 360px;
+    background: white;
+    margin-left: 657px;
+    margin-top: 0px
+}
+
+.boxtop div{
+    width: 300px;
+    height: 51px;
+    margin-left: 30px;
+}
+
+form {
+    position: absolute;
+    width: 300px;
+    height: 395px;
+    top: 30px;
+    left: 30px;
+    /* border: 1px solid #ccc; */
+    margin: 0px auto;
+    /* background-image: url(./images/a.png);
+            background-position: 10px 29px; */
+}
+
+form p input {
+    width: 302px;
+    height: 46px;
+    margin-bottom: 19px;
+    box-sizing: border-box
+}
+#code{
+    width: 90px;
+    position: absolute;
+    left: 213px;
+    top: 65px;
+    font-size: 20px;
+}
+form p input:nth-child(7) {
+
+    margin-bottom: 0px;
+
+}
+
+form p:nth-child(1) i {
+    display: inline-block;
+    width: 27px;
+    height: 32px;
+    position: absolute;
+    top: 7px;
+    left: 7px;
+    background-image: url(../images/a.png);
+    background-position: 169px -214px;
+}
+
+form p:nth-child(2) i {
+    display: inline-block;
+    width: 27px;
+    height: 32px;
+    position: absolute;
+    top: 72px;
+    left: 7px;
+    background-image: url(../images/a.png);
+    background-position: 147px -214px;
+}
+
+form p:nth-child(3) i {
+    display: inline-block;
+    width: 27px;
+    height: 32px;
+    background-image: url(../images/a.png);
+    background-position: 99px -216px;
+    position: absolute;
+    top: 136px;
+    left: 7px;
+}
+
+form p:nth-child(4) i {
+
+    display: inline-block;
+    width: 27px;
+    height: 32px;
+    background-image: url(../images/a.png);
+    background-position: 99px -216px;
+    position: absolute;
+    top: 202px;
+    left: 7px;
+}
+
+.fuwu {
+    font-size: 13px
+}
+
+.fuwu a {
+    font-size: 12px;
+    text-decoration: none;
+    color: #1D94D1;
+
+}
+
+form p:nth-child(1) label.error {
+
+    top: 47px;
+    position: absolute;
+    color: #EC5042;
+    font-size: 10px;
+
+}
+
+form p:nth-child(2) label.error {
+    top: 111px;
+    left: 0px;
+    position: absolute;
+    color: #EC5042;
+    font-size: 10px;
+
+}
+
+form p:nth-child(3) label.error {
+    top: 176px;
+    position: absolute;
+    color: #EC5042;
+    font-size: 10px;
+
+}
+
+form p:nth-child(4) label.error {
+    top: 243px;
+    position: absolute;
+    color: #EC5042;
+    font-size: 10px;
+
+}
+
+form p:nth-child(5) label.error {
+    top: 283px;
+    left: 0px;
+    position: absolute;
+    color: #EC5042;
+    font-size: 10px;
+
+}
+
+.footer {
+    height: 77px;
+}
+
+.footer .c-footer {
+    width: 1000px;
+    margin: auto;
+    height: 77px;
+    line-height: 77px;
+    text-align: center;
+    color: #666666;
+    font-size: 10px;
+}

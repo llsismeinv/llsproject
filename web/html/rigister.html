@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/jquery.validate.min.js"></script>
+    <script src="../js/ajax.js"></script>
+    <!-- 提示信息的中插件 -->
+    <script src="../resourse/localization/messages_zh.min.js"></script>
+    <link rel="stylesheet" href="../css/rigister.css">
+
+</head>
+
+<body>
+    <div class="header">
+        <div class="head">
+            <div class="wph">
+                <img src="../images/1592278113502.png">
+            </div>
+            <div class="wphright">
+            </div>
+        </div>
+    </div>
+    <div class="main">
+        <div class="mainin">
+            <div class="boxtop">
+                <div>
+                    <h3  style="float:left;line-height: 51px;color:#666666">会员注册</h3>
+                    <p style="float:right;line-height: 51px">已注册<a href="./login.html" style="color: deeppink;text-decoration: none">可直接登录</a></p>
+                </div>
+            </div>
+            <div class="box">
+                <form id="rigister">
+                    <p>
+                        <i></i>
+                        <input id="rigisterphone" name="rigisterphone" placeholder="请输入手机号码"
+                            style="font-size: 15px;padding-left:40px;" ; required>
+                    </p>
+                    <p>
+                        <i></i>
+                        <input id="yanzhengma" name="yanzhengma" placeholder="请输入验证码" style="padding-left:40px;width: 200px">
+                        <input id="code">
+                    </p>
+                    <p>
+                        <i></i>
+                        <input type="password" id="password" name="password" placeholder="密码由8-20位字母，数字和符号组成"
+                            style="padding-left:40px;">
+                    </p>
+                    <p>
+                        <i></i>
+                        <input type="password" id="password1" name="password1" placeholder="请在次输入上面的密码"
+                            style="padding-left:40px;">
+                    </p>
+                    <p>
+                        <input type="checkbox" name="check" style="width: 19px;height:16px">
+                        <span class="fuwu">我已接受并阅读以下条款
+                            <a href="">《唯品会服务条款》</a>
+                            <a href="">《隐私条款》</a>
+                            <a href="">《唯品制服拥护服务协议》</a>
+                        </span>
+                    </p>
+                    <p>
+                        <input class="submit" type="submit" value="立即注册"
+                            style="background-color: deeppink;border:none;   border-radius: 3px">
+                    </p>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+
+        <div class="c-footer">
+            <p class="c-copyright">Copyright 2008-2020 vip.com，All Rights Reserved ICP证：粤 B2-20080329</p>
+        </div>
+    </div>
+    <script src="../js/rigister.js">
+
+    </script>
+</body>
+
+</html>
